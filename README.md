@@ -1,25 +1,20 @@
-[README.md](https://github.com/user-attachments/files/31488786/README.md)
+[README(2).md](https://github.com/user-attachments/files/31488903/README.2.md)
 <div align="center">
 
-<!-- HERO BANNER -->
-<a href="#">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B3558,50:075B70,100:16A085&height=230&section=header&text=Job%20Data%20APIs&fontSize=46&fontColor=FFFFFF&fontAlignY=48&desc=Listings%20%20•%20%20Hiring%20Signals%20%20•%20%20Salary%20Data%20%20•%20%20Recruiting&descAlignY=68&descSize=17&descColor=D8F3F7" width="100%" />
-</a>
-
-<br/>
+<img src="assets/job-data-apis-banner.svg" width="100%" alt="Job Data APIs banner">
 
 # 💼 Job Data APIs and Scrapers
 
-### Job listings, hiring signals, salary data, employer research, and recruiting APIs.
+**Job listings, hiring signals, salary data, employer research, and recruiting APIs.**
 
-<br/>
+<br>
 
 ![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPOSITORY?style=flat-square&label=STARS&color=0EA5E9)
 ![Daily Sync](https://img.shields.io/badge/DAILY%20SYNC-ACTIVE-22C55E?style=flat-square)
 ![Status](https://img.shields.io/badge/STATUS-ACTIVE-22C55E?style=flat-square)
 ![License](https://img.shields.io/badge/LICENSE-MIT-84CC16?style=flat-square)
 
-<br/><br/>
+<br><br>
 
 **[Browse API Lists](#-api-directory)** &nbsp;·&nbsp;
 **[Start Building](#-getting-started)**
@@ -30,9 +25,9 @@
 
 ## 📌 What this repo is
 
-A focused directory of **job-data APIs, web scrapers, datasets, and recruiting resources** for developers building applications around employment and labor-market data.
+A curated directory of **job-data APIs, web scrapers, datasets, and recruiting resources** for developers building applications around employment and labor-market data.
 
-This repository brings together useful resources for collecting and working with:
+This repository collects useful resources for:
 
 - 💼 Job listings
 - 🏢 Employer information
@@ -47,11 +42,9 @@ This repository brings together useful resources for collecting and working with
 
 ## 🚀 Why this repository?
 
-Finding reliable job-data resources can be difficult.
+Finding reliable job-data resources can be difficult because different platforms provide different APIs, datasets, formats, and access requirements.
 
-Different platforms provide different types of information, use different APIs, and have different access requirements.
-
-This project aims to provide a **single, organized directory** where developers can quickly discover useful job-data resources.
+This project aims to provide a **single, organized directory** where developers can quickly discover useful resources for job-data projects.
 
 ### You can use this repository to:
 
@@ -74,10 +67,10 @@ Resources for accessing job postings and vacancy information.
 
 | Resource | Type | Description |
 |---|---|---|
-| Job API | API | Structured job listing data |
-| Job Search API | API | Search jobs using filters |
-| Job Feed | API | Continuous job-posting feeds |
-| Job Aggregator | API | Jobs collected from multiple sources |
+| Job Listing APIs | API | Structured job listing data |
+| Job Search APIs | API | Search jobs using filters |
+| Job Feeds | API | Continuous job-posting feeds |
+| Job Aggregators | API | Jobs collected from multiple sources |
 
 ---
 
@@ -87,12 +80,12 @@ Tools and resources for collecting job information from websites.
 
 | Resource | Technology | Purpose |
 |---|---|---|
-| Job Scraper | Python | Extract job listings |
-| Job Crawler | Node.js | Crawl job pages |
-| Scraping Framework | Python | Build custom scrapers |
-| Browser Automation | JavaScript | Dynamic website extraction |
+| Job Scrapers | Python | Extract job listings |
+| Job Crawlers | Node.js | Crawl job pages |
+| Scraping Frameworks | Python / JS | Build custom scrapers |
+| Browser Automation | JavaScript | Extract dynamic website data |
 
-> ⚠️ Always respect the target website's Terms of Service, robots.txt, rate limits, and applicable laws.
+> ⚠️ Always respect the target website's Terms of Service, `robots.txt`, rate limits, copyright, and applicable laws.
 
 ---
 
@@ -100,7 +93,7 @@ Tools and resources for collecting job information from websites.
 
 Resources for salary and compensation information.
 
-Possible data points include:
+Common data points include:
 
 - Average salary
 - Salary ranges
@@ -109,7 +102,7 @@ Possible data points include:
 - Experience level
 - Industry
 - Company
-- Technology/skill
+- Technology or skill
 - Compensation trends
 
 ---
@@ -135,7 +128,7 @@ Useful information may include:
 
 Resources useful for analyzing employment trends.
 
-Examples:
+Examples include:
 
 - Employment statistics
 - Workforce trends
@@ -169,21 +162,14 @@ AI Matching
 Recommended Jobs
 ```
 
----
-
 ### 📊 Job Market Analytics
 
 Build dashboards that answer questions such as:
 
-> Which programming language is currently most demanded?
-
-> Which industries are hiring the most?
-
-> What is the average salary for a particular role?
-
-> Which skills appear most frequently in job descriptions?
-
----
+- Which programming languages are most demanded?
+- Which industries are hiring the most?
+- What is the average salary for a particular role?
+- Which skills appear most frequently in job descriptions?
 
 ### 🎓 Student Career Platform
 
@@ -234,7 +220,7 @@ Job-Data-APIs-and-Scrapers/
 │   └── workflows/
 │
 ├── assets/
-│   └── images/
+│   └── job-data-apis-banner.svg
 │
 ├── catalog/
 │   ├── apis/
@@ -244,7 +230,6 @@ Job-Data-APIs-and-Scrapers/
 │   └── datasets/
 │
 ├── examples/
-│
 ├── playbooks/
 │
 ├── CONTRIBUTING.md
@@ -255,9 +240,7 @@ Job-Data-APIs-and-Scrapers/
 
 ---
 
-# 🔌 API Integration Example
-
-A typical job-data API workflow looks like this:
+# 🔌 Typical API Workflow
 
 ```text
 ┌──────────────────┐
@@ -266,7 +249,7 @@ A typical job-data API workflow looks like this:
          │
          ▼
 ┌──────────────────┐
-│   Fetch Jobs     │
+│    Fetch Jobs    │
 └────────┬─────────┘
          │
          ▼
@@ -311,8 +294,7 @@ When using APIs or scraping tools, always consider:
 - Website Terms of Service
 - `robots.txt`
 - Rate limits
-- Copyright
-- Licensing
+- Copyright and licensing
 - Privacy requirements
 - Applicable laws and regulations
 
@@ -329,8 +311,6 @@ If you know a useful **job API, scraper, dataset, recruiting API, salary resourc
 ### Contribution workflow
 
 ```bash
-# Fork the repository
-
 # Create a branch
 git checkout -b add-new-resource
 
@@ -351,15 +331,11 @@ Then open a Pull Request.
 
 If this repository is useful to you:
 
-⭐ **Star the repository**
-
-🍴 **Fork the repository**
-
-🐛 **Report issues**
-
-💡 **Suggest new resources**
-
-🤝 **Contribute**
+⭐ Star the repository  
+🍴 Fork the repository  
+🐛 Report issues  
+💡 Suggest new resources  
+🤝 Contribute improvements
 
 ---
 
@@ -369,7 +345,7 @@ If this repository is useful to you:
 
 **Made for developers, researchers, recruiters, and builders.**
 
-<br/>
+<br>
 
 [⬆ Back to Top](#-job-data-apis-and-scrapers)
 
