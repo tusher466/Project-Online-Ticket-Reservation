@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img src="assets/job-data-apis-banner.svg" width="100%" alt="Job Data APIs banner">
+<img src="job-data-apis-banner.svg" width="100%" alt="Job Data APIs banner">
 
 # 💼 Job Data APIs and Scrapers
 
