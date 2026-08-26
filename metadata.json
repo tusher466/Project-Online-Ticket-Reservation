@@ -1,0 +1,6 @@
+{
+  "name": "Online Ticket Reservation",
+  "description": "High-performance Online Ticket Reservation System powered by Dijkstra shortest path routing, BST booking index, and priority waitlist queue.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
